@@ -1,0 +1,56 @@
+.informacion span{
+    font-size: 23px;
+    padding: 10px;
+}
+
+.perfil .img{
+    width: 150px;  
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 10px rgba(255,255,255,1);
+}
+
+@media (min-width: 700px){
+    .perfil .img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.perfil .subheading{
+    font-style: italic;
+}
+
+.perfil .twitter{
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.perfil .facebook{
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.perfil .github{
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.perfil .twitter:hover{
+    color: #55acee;
+}
+
+.perfil .facebook:hover{
+    color: #3b5998;
+}
+
+.perfil .github:hover{
+    color: black;
+}
